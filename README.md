@@ -1,9 +1,8 @@
-# IntuitProductSignUpAPI
-Develop a product signup experience using a number of spring boot APIs that will create the user and process payment, and then return a response of the completed transaction. 
+# ProductSignUpAPI
+Developed this project to display my full knowdlege of API development in spring boot. A product signup experience using a number  that will create the user and process payment, and then return a response of the completed transaction. 
 
  
-
-Requirements
+Problems:
 
 1) A user creation REST API that will take in user information (name, address, email address), validate it, push it to a datastore, and return a response.
 
@@ -23,4 +22,6 @@ Technology
 
 These RESTful APIs are written in Spring Boot.
 
-The data store technology is up to you. It can be a relational database, in memory database, a flat-file etc.
+Data storage
+
+A H2 (In Memory) Database.
